@@ -4,6 +4,7 @@ defmodule BunBun.Types.PullZone do
 
   alias BunBun.Types
 
+  @derive Jason.Encoder
   typedstruct do
     field :id, integer(), enforce: true, default: 0
     field :name, String.t(), enforce: true, default: ""
@@ -34,8 +35,8 @@ defmodule BunBun.Types.PullZone do
     field :type, integer(), enforce: true, default: 0
 
     field :custom_nginx_config, String.t(), enforce: true, default: ""
-
     field :access_control_origin_header_extensions, list(String.t()), enforce: true, default: []
+
     field :enable_access_control_origin_header, boolean(), enforce: true, default: false
     field :block_root_path_access, boolean(), enforce: true, default: false
     field :enable_webp_vary, boolean(), enforce: true, default: false

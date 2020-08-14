@@ -1,0 +1,71 @@
+[
+    {
+        "Id": 4122,
+        "Name": "mypullzone",
+        "OriginUrl": "https://bunnycdn.com",
+        "Enabled": true,
+        "Hostnames": [
+            {
+                "Id": 15123,
+                "Value": "mypullzone.b-cdn.net",
+                "ForceSSL": false,
+                "IsSystemHostname": true,
+                "HasCertificate": true
+            },
+            {
+                "Id": 15124,
+                "Value": "cdn.mysite.com",
+                "ForceSSL": false,
+                "IsSystehHostname": false,
+                "HasCertificate": false
+            }
+        ],
+        "StorageZoneId": -1,
+        "AllowedReferrers": [
+            "myothersite.com"
+        ],
+        "BlockedIps": [
+            "23.112.23.144",
+            "12.34.222.14"
+        ],
+        "EnableGeoZoneUS": true,
+        "EnableGeoZoneEU": true,
+        "EnableGeoZoneASIA": false,
+        "ZoneSecurityEnabled": true,
+        "ZoneSecurityKey": "a4582360-21aa-4216-b47c-e6cd753d86d2",
+        "ZoneSecurityIncludeHashRemoteIP": false,
+        "IgnoreQueryStrings": false,
+        "MonthlyBandwidthLimit": 31248891722,
+        "MonthlyBandwidthUsed": 11248891722,
+        "AddHostHeader": false,
+        "Type": 0,
+        "MonthlyCharges": 14.21,
+        "CustomNginxConfig": "",
+        "AccessControlOriginHeaderExtensions": [
+            "eot",
+            "ttf",
+            "woff",
+            "woff2",
+            "css",
+            "m3u8",
+            "ts",
+            "mpd",
+            "m4a",
+            "m4v",
+            "jpg",
+            "jpeg"
+        ],
+        "EnableAccessControlOriginHeader": true,
+        "BlockRootPathAccess": true,
+        "EnableWebpVary": true,
+        "EnableLogging": true,
+        "DisableCookies": false,
+        "BudgetRedirectedCountries": [
+            "RU"
+        ],
+        "BlockedCountries": [],
+        "EnableOriginShield": true,
+        "OriginShieldZoneCode": "FR",
+        "AddCanonicalHeader": true
+    }
+]

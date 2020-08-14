@@ -1,0 +1,13 @@
+[
+    {
+        "Id": 4122,
+        "Name": "mystoragezone",
+        "Password": "storage-zone-password-key",
+        "ReadOnlyPassword": "storage-zone-password-key",
+        "UserId": "user-id",
+        "FilesStored": 20,
+        "StorageUsed": 1024,
+        "Deleted": false,
+        "DateModified": "2017-04-22T00:00:00Z"
+    }
+]

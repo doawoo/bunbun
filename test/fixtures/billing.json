@@ -1,0 +1,22 @@
+{
+    "Balance": 4122.16,
+    "ThisMonthCharges": 182.22,
+    "BillingRecords": [
+        {
+            "Id": 31247,
+            "Amount": 25,
+            "Payer": "billing@mycompany.com",
+            "PaymentId": "4xq2kad",
+            "Timestamp": "TODO",
+            "Type": 2
+        },
+        {
+            "Id": 21247,
+            "Amount": 12.23,
+            "Payer": "billing@mycompany.com",
+            "PaymentId": "4xq2kad",
+            "Timestamp": "TODO",
+            "Type": 1
+        }
+    ]
+}
